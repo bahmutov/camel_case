@@ -1,0 +1,23 @@
+{
+  "name": "camel_case",
+  "version": "0.0.0",
+  "description": "ESLint rule for enforcing camelCame names but allowing _ in property names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bahmutov/camel_case.git"
+  },
+  "keywords": [
+    "eslint",
+    "rule"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/camel_case/issues"
+  },
+  "homepage": "https://github.com/bahmutov/camel_case"
+}
