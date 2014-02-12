@@ -32,7 +32,7 @@ If yes, this is a property name inside an object, and underscore character `_` i
 
 ## running
 
-Please `camel_case.js` into local folder, pass to eslint using `--rulesdir` option.
+Place `camel_case.js` into local folder, pass to eslint using `--rulesdir` option.
 Enable `camel_case` rule from `.eslintrc` file
 
     // .eslintrc
