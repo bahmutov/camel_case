@@ -9,9 +9,12 @@ module.exports = function(context) {
       var nameWithMaybeColon = context.getSource(node, 0, 1);
       if (nameWithMaybeColon[nameWithMaybeColon.length - 1] !== ':') {
         if (nameWithMaybeColon.indexOf('_') !== -1) {
+
           // allow constants FOO_BAR with all caps to use _
-          if (allCapsWithUnderScore.test(nameWithMaybeColon)) {
-            console.log(nameWithMaybeColon, 'is all caps with _');
+          var justName = node.name.trim();
+          console.log('checking', justName);
+          if (allCapsWithUnderScore.test(justName)) {
+            console.log(justName, 'is all caps with _');
             return;
           }
 
