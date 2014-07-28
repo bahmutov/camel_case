@@ -13,7 +13,7 @@ module.exports = function(context) {
     if (k === 0 || k === str.length - 1) {
       return true;
     }
-    k = str.getLastIndexOf('_');
+    k = str.lastIndexOf('_');
     if (k === str.length - 1) {
       return true;
     }
