@@ -1,6 +1,6 @@
 {
   "name": "camel_case",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint rule for enforcing camelCame names but allowing _ in property names",
   "main": "index.js",
   "scripts": {
