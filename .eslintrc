@@ -7,8 +7,8 @@
   // 2 - rule generates errors
   "rules": {
     "camelcase": 0,
-    "camel_case": 2,
+    "camel_case": 1,
     "quotes": 0,
-    "no-unused-vars": 0
+    "no-unused-vars": 1
   }
 }

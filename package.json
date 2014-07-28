@@ -1,10 +1,10 @@
 {
   "name": "camel_case",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ESLint rule for enforcing camelCame names but allowing _ in property names",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/eslint/bin/eslint.js index.js --rulesdir ."
+    "test": "node node_modules/gt/gt.js test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/camel_case/issues"
   },
-  "homepage": "https://github.com/bahmutov/camel_case"
+  "homepage": "https://github.com/bahmutov/camel_case",
+  "devDependencies": {
+    "gt": "0.8.38"
+  }
 }

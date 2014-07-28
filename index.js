@@ -1,4 +1,5 @@
 var goodVariable = 1;
+var FOO_BAR_CONSTANT = 10;
 
 var goodObject = {
   property_name: 1,
