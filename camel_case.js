@@ -2,7 +2,24 @@
 
 /* globals module */
 module.exports = function(context) {
-  var allCapsWithUnderScore = /^[A-Z_]+$/;
+
+  function isConstant(str) {
+    var allCapsWithUnderScore = /^[A-Z_]+$/;
+    return allCapsWithUnderScore.test(str);
+  }
+
+  function isFrontOrBackUnderscore(str) {
+    var k = str.indexOf('_');
+    if (k === 0 || k === str.length - 1) {
+      return true;
+    }
+    k = str.getLastIndexOf('_');
+    if (k === str.length - 1) {
+      return true;
+    }
+
+    return false;
+  }
 
   return {
     Identifier: function(node) {
@@ -12,9 +29,12 @@ module.exports = function(context) {
 
           // allow constants FOO_BAR with all caps to use _
           var justName = node.name.trim();
-          console.log('checking', justName);
-          if (allCapsWithUnderScore.test(justName)) {
-            console.log(justName, 'is all caps with _');
+          if (isConstant(justName)) {
+            return;
+          }
+
+          // allow dangling underscore at the front or back only
+          if (isFrontOrBackUnderscore(justName)) {
             return;
           }
 

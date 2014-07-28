@@ -1,5 +1,8 @@
 var goodVariable = 1;
 var FOO_BAR_CONSTANT = 10;
+var _front = '_ in front';
+var back_ = '_ in back';
+var _both_ = '_ both _';
 
 var goodObject = {
   property_name: 1,
