@@ -2,6 +2,21 @@
 
 > ESLint rule for enforcing camelCame names but allowing _ in property names
 
+[![NPM][camel_case-icon] ][camel_case-url]
+
+[![Build status][camel_case-ci-image] ][camel_case-ci-url]
+[![dependencies][camel_case-dependencies-image] ][camel_case-dependencies-url]
+[![devdependencies][camel_case-devdependencies-image] ][camel_case-devdependencies-url]
+
+[camel_case-icon]: https://nodei.co/npm/camel_case.png?downloads=true
+[camel_case-url]: https://npmjs.org/package/camel_case
+[camel_case-ci-image]: https://travis-ci.org/bahmutov/camel_case.png?branch=master
+[camel_case-ci-url]: https://travis-ci.org/bahmutov/camel_case
+[camel_case-dependencies-image]: https://david-dm.org/bahmutov/camel_case.png
+[camel_case-dependencies-url]: https://david-dm.org/bahmutov/camel_case
+[camel_case-devdependencies-image]: https://david-dm.org/bahmutov/camel_case/dev-status.png
+[camel_case-devdependencies-url]: https://david-dm.org/bahmutov/camel_case#info=devDependencies
+
 We want to use camelCase in variable names, but want to still allow
 underscores in JSON objects:
 
