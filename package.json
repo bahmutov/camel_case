@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/bahmutov/camel_case",
   "devDependencies": {
-    "gt": "0.8.38"
+    "gt": "0.8.44"
   }
 }
