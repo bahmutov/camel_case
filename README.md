@@ -17,6 +17,8 @@
 [camel_case-devdependencies-image]: https://david-dm.org/bahmutov/camel_case/dev-status.png
 [camel_case-devdependencies-url]: https://david-dm.org/bahmutov/camel_case#info=devDependencies
 
+Related: I placed my collection of my own custom eslint rules into [bahmutov/eslint-rules][eslint-rules]
+
 We want to use camelCase in variable names, but want to still allow
 underscores in JSON objects:
 
@@ -104,3 +106,5 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+[eslint-rules]: https://github.com/bahmutov/eslint-rules
